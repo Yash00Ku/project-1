@@ -1,0 +1,497 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+body {
+	margin: 0px;
+	font-family: 'Oswald', sans-serif;
+	background-color: #303030;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	}
+
+
+
+.btn:hover, .btn:active {
+  background-color: #fff;
+  color: #000 ;
+  cursor: pointer;
+	}
+
+.white-text {
+	color: #fff !important;
+	}
+
+h1 {
+	font-size: 80px;
+	font-weight: 400;
+	margin-top: 280px;
+	margin-bottom: 0px;
+}
+h2 {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 500;
+	margin: 0px auto;
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0px auto;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0px auto;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin: 0px auto;
+	word-spacing: 7px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+.banner-img {
+  background-image: url("images/banner-image.jpg");
+  background-color: #303030;
+  width: 1440px;
+  min-height: 795px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/**--------------------Header---------------------------**/
+
+.header {
+	min-height: 795px;
+	margin: 0 auto;
+}
+
+.top-bar {
+	background-color: #303030;
+	min-height: 20px;
+}
+
+
+
+.container {
+	width: 1440px;
+	margin: 0 auto;
+	}
+
+.logo-section {
+	float: left;
+	}
+ul.nav {
+	padding: 0px 180px;
+	margin: 15px;
+}
+
+.navbar {
+	float: left;
+	background-color: #303030;
+}
+
+ul li.head {
+	font-size: 17px;
+	display: inline-block;
+	list-style-type: none;
+	padding: 22px 40px;
+	}
+
+a.nav_icon {
+	text-decoration: none;
+	color: white;
+	}
+
+button.search-icon {
+	background-color: #303030;
+    color: #fff;
+    border: none;
+    padding: 35px;
+    font-size: 25px;
+}
+
+.search-section {
+	min-height: 101px;
+	}
+
+/**--------------------Header-Closed---------------------------**/
+
+/**--------------------Top-Banner---------------------------**/
+
+.top-banner {
+	padding-left: 80px;
+	}
+
+button.registration {
+	background-color: #e8631c;
+	border-style: hidden;
+	color: #fff;
+	padding: 20px 50px;
+	border-radius: 4px;
+	}
+
+
+/**--------------------Top-Banner-Closed---------------------------**/
+
+/**--------------------Tour-Section--------------------------**/
+
+.tour-section {
+	text-align: center;
+}
+
+.section-bg-1  {
+  background-image: url("images/section-bg-1.jpg");
+  background-color: #e8631c;
+  width: 1440px;
+  min-height: 960px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+}
+
+.tour-section-row {
+	width: 372px;
+	margin: 0px auto;
+	display: inline-block;
+	float: left;
+	margin: 0px 33px;
+	background-color: #303030;
+}
+
+.tour-section h2 {
+	margin: 0 auto;
+	padding: 105px 0px 30px;
+}
+
+.tour-txt {
+	padding: 30px;
+}
+
+.tour-txt h3 {
+	margin-bottom: 10px;
+	}
+
+
+/**--------------------Tour-Section-Closed---------------------------**/
+
+/**--------------------Pricing-Section--------------------------**/
+
+.pricing-section {
+	text-align: center;
+	min-height: 960px;
+}
+
+.pricing-section-row {
+	width: 375px;
+	margin: 0px auto;
+	display: inline-block;
+	float: left;
+	margin: 0px 30px;
+	background-color: #e8631c;
+	padding-top: 80px;
+	border-style: hidden;
+	border-radius: 10px;
+}
+
+.section-bg-2  {
+  background-image: url("images/section-bg-2.jpg");
+  background-color: #303030;
+  width: 1440px;
+  min-height: 960px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+}
+
+.pricing-section h2 {
+	margin: 0 auto;
+	padding: 80px 0px 30px;
+}
+
+img.medal {
+	width: 150px;
+	}
+
+.pricing-txt {
+	padding: 40px 30px 30px;
+}
+.pricing-txt h3 {
+	margin-bottom: 30px;
+	}
+button.pricing-btn {
+	background-color: #303030;
+	border-style: hidden;
+	color: #fff;
+	padding: 15px 100px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 30px;
+	}
+
+
+
+/**--------------------Pricing-Section-Closed---------------------------**/
+
+/**--------------------Amazing-Dance-Section--------------------------**/
+
+
+.amazing-dance-txt-bg  {
+  background-image: url("images/amazing-dance-bg.jpg");
+  background-color: #e8631c;
+  width: 721px;
+  min-height: 955px;
+  float: right;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
+}
+
+.amazing-dance-txt {
+	padding-left: 85px;
+	padding-top: 320px;
+}
+
+.amazing-dance-txt h2 {
+	margin-bottom: 60px;
+}
+
+.amazing-dance-img {
+	float: left;
+}
+
+
+
+
+/**--------------------Amazing-Dance-Section-Closed---------------------------**/
+
+/**--------------------Best-Dance-Section--------------------------**/
+
+
+.best-dance-txt-bg  {
+  background-image: url("images/best-dance-bg.jpg");
+  background-color: #e8631c;
+  width: 721px;
+  min-height: 950px;
+  float: left;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0px auto;
+}
+
+.best-dance-txt {
+	padding-left: 100px;
+	padding-top: 320px;
+}
+
+.best-dance-txt p {
+	padding: 50px 0px;
+}
+
+
+
+.best-dance-img {
+	float: right;
+}
+
+
+button.read-more-btn {
+	background-color: #303030;
+	border-style: hidden;
+	color: #fff;
+	padding: 15px 60px;
+	border-radius: 5px;
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif;
+	}
+
+/**--------------------Best-Dance-Section-Closed---------------------------**/
+
+/**--------------------Statistics-Section---------------------------**/
+
+.statistics {
+	text-align: center;
+	min-height: 975px;
+	background-color: #303030;
+	display: inline-block;
+	}
+
+.statistics-txt h2 {
+	margin: 0 auto;
+	padding: 215px 0px 60px;
+}
+
+.stats-row {
+	margin-top: 185px;
+}
+
+.stats-txt {
+	display: inline-block;
+	float: left;
+	padding: 0px 115px;
+	background-color: #303030;
+}
+
+
+/**--------------------Statistics-Section-Closed---------------------------**/
+
+/**--------------------Herbert-Simon-Section---------------------------**/
+
+.herbert {
+	text-align: center;
+	}
+
+.herbert-bg  {
+  background-image: url("images/Herbert-Simon.jpg");
+  background-color: #e8631c;
+  width: 1440px;
+  min-height: 965px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+}
+
+.herbert-txt h4 {
+	padding-top: 330px;
+	padding-bottom: 50px;
+	}
+
+/**--------------------Herbert-Simon-Section-Closed---------------------------**/
+
+/**--------------------Subscribe-Section---------------------------**/
+
+.subscribe {
+	text-align: center;
+	}
+
+.subscribe-bg  {
+  background-image: url("images/subscription-bg.jpg");
+  background-color: #e8631c;
+  width: 1440px;
+  min-height: 591px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+}
+
+.subscribe-txt h2 {
+ padding-top: 120px;
+ padding-bottom: 50px;
+}
+
+button.subscribe-btn {
+	background-color: #303030;
+	border-style: hidden;
+	color: #fff;
+	padding: 18px 60px;
+	border-radius: 2px;
+	font-size: 17px;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+	float: left;
+	}
+
+	input.subscribe-input {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 17px;
+		border: none;
+		padding: 0px 40px;
+		min-height: 60px;
+		width: 350px;
+		float: left;
+		margin-left: 400px;
+		
+	}
+
+	.subcribe-form {
+		margin-top: 50px;
+	}
+
+
+/**--------------------Subscribe-Section-Closed---------------------------**/
+
+/**--------------------Footer-Section---------------------------**/
+
+.footer {
+	min-height: 360px;
+}
+
+.footer-text {
+	margin-top: 115px;
+}
+
+.musicology {
+	width: 715px;
+	float: left;
+	padding-left: 50px;
+
+}
+
+.musicology h5 {
+	padding-bottom: 35px;
+}
+
+.about {
+	width: 267px;
+	float: left;
+}
+
+.services {
+	width: 267px;
+	float: left;
+}
+
+.other {
+	float: left;
+}
+
+ul li.footer-opt {
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+}
+
+ul.footer-text-ul {
+	margin: 0px;
+	padding-left: 0px;
+}
+
+img.social {
+	width: 40px;
+	padding: 35px 10px;
+
+}
+
+
+/**--------------------Footer-Section-Closed---------------------------**/
+
+
